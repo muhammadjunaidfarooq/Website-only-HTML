@@ -33,6 +33,7 @@ This is my first HTML project, designed to demonstrate nearly all essential HTML
 2. Open the `index.html` file in any modern web browser.
 
 ## Demo
+[![Watch the Demo](assets/thumbnail.png)](demo.mp4)
 <video src="demo.mp4" controls width="500"></video>
 
 ## Contact  
