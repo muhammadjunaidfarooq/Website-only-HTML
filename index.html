@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Website</title>
+</head>
+
+<body>
+
+    <!-- Head section -->
+    <table width="100%">
+        <tr>
+            <td align="right">
+                <nav>
+                    <a href="#home">Home</a>
+                    |
+                    <a href="#about">About</a>
+                    |
+                    <a href="#services">Services</a>
+                    |
+                    <a href="#gallery">Gallery</a>
+                    |
+                    <a href="#blog">Blog</a>
+                    |
+                    <a href="#contact">Contact</a>
+                </nav>
+            </td>
+        </tr>
+    </table>
+
+    <header>
+        <h1>Welcome to my HTML Website</h1>
+    </header>
+
+    <main>
+
+        <!-- Home section -->
+        <section id="home">
+            <h2>Introduction</h2>
+            <p>Welcome to our HTML website. This page demonstrates nearly all HTML tags in a single file.</p>
+
+            <blockquote
+                cite="https://medium.com/@esthon/html-the-backbone-of-web-pages-laying-the-foundation-for-a-dynamic-web-240d975dbc9e">
+                “HTML is the foundation of the web and enables the creation of rich web content.”
+            </blockquote>
+
+            <details>
+                <summary>More Information</summary>
+                <p>This website includes headers, tables, lists, forms, and various media elements.</p>
+            </details>
+        </section>
+
+        <!-- About section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p> Our team is dedicated to creating accessible web content using HTML only. </p>
+            <address>
+                Address: 123 HTML St, Web City, Internet <br>
+                Email: <a href="mailto:juanid786farooq@gmail.com" target="_blank">juanid786farooq@gmail.com</a><br>
+                Phone: <a href="tel:03120635622">03120635622</a>
+            </address>
+
+            <figure>
+                <img src="./assets/team.png" height="200px" width="400px" alt="Our Photo">
+                <figcaption>Our dedicated team at work.</figcaption>
+            </figure>
+
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>SEO Optimization</li>
+                <li>Content Creation</li>
+            </ul>
+            <table border="">
+                <caption>Services Price</caption>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Consulting</td>
+                        <td>$100/hour</td>
+                    </tr>
+                    <tr>
+                        <td>Development</td>
+                        <td>$150/hour</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Contact us for more details</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- gallery section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <figure>
+                <img src="./assets/project1.png" height="200px" width="400px" alt="Our latest project">
+                <figcaption>Our latest project</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/team-event.jpg" height="200px" width="400px" alt="Latest Team event">
+                <figcaption>Our recent team event</figcaption>
+            </figure>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog">
+            <h2>Blog</h2>
+            <article>
+                <header>
+                    <h3>The Importance of HTML</h3>
+                    <p>Published on <time datetime="2024-11-10">November 10, 2024</time></p>
+                </header>
+                <p>HTML is the backbone of any website, providing structure and meaning to web content.</p>
+            </article>
+            <article>
+                <header>
+                    <h3>Accessible Web Design</h3>
+                    <p>Published on <time datetime="2024-11-12">November 12, 2024</time></p>
+                </header>
+                <p>Accessibility is essential for web inclusivity, allowing everyone to experience web content.</p>
+            </article>
+        </section>
+
+        <!-- Contact us -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="mailto:junaidfarooq.pk@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" name="Name" id="name">
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="Email" id="email" required>
+                <br><br>
+                <label for="mess">Message:</label>
+                <br>
+                <textarea name="Message" id="mess"></textarea>
+                <br><br>
+                <button>Send Message</button>
+            </form>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <p>Copyright &copy; 2024 HTML Website. All rights reserved.</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
